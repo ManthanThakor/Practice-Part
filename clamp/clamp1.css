@@ -1,0 +1,20 @@
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0 auto;
+  
+  }
+  .s{
+    letter-spacing: 2px;
+    font-size: clamp(1rem, 8vw + 1rem ,3rem); 
+    /* font-size: 16px; */
+   text-align: center;
+  }
+  
+  .t{
+      font-size: 1rem;
+      text-align: center;
+  }
+  
