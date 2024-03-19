@@ -1,4 +1,4 @@
-console.log("Hello I am conditional tutorial")
+console.log("Hello it is conditional tutorial")
 
 let age = 1;
 // let grace = 2;
