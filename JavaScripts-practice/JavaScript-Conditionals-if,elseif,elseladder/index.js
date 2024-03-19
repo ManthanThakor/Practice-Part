@@ -1,22 +1,24 @@
 console.log("Hello it is conditional tutorial")
 
 let age = 1;
-// let grace = 2;
+let grace = 2;
 
-// age += grace
-// console.log(age)
-// console.log(age + grace)
-// console.log(age - grace)
-// console.log(age * grace)
-// console.log(age / grace)
-// console.log(age ** grace)
-// console.log(age % grace)
+age += grace
+console.log(age)
+console.log(age + grace)
+console.log(age - grace)
+console.log(age * grace)
+console.log(age / grace)
+console.log(age ** grace)
+console.log(age % grace)
 
 /*
 I am a 
 multiline 
 comment
 */
+
+// -------------else if-----------------
 
 if (age == 18) {
     console.log("You can drive");
