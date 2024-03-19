@@ -1,4 +1,4 @@
-console.log("Hey this is tutorial 55");
+console.log("Hey this is js practices");
 
 var a = 5;
 // a = a + 1
@@ -30,13 +30,14 @@ console.log(typeof x, typeof y, typeof z, typeof p, typeof q, typeof r)
 
 
 let o = {
-    "name": "Harry",
+    "name": "Manthan",
     "job code": 5600,
     "is_handsome": true
 }
-
 console.log(o);
+
 o.salary = "100crores";
 console.log(o);
+
 o.salary = "500crores";
 console.log(o);
