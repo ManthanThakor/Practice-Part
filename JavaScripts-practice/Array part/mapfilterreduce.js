@@ -4,11 +4,13 @@ let arr = [1, 13, 5 ,7, 11];
 //     const element = arr[index];
 //     newArr.push(element**2)
 // }
-
+// ----------------------- map 
 let newArr = arr.map((e, index, array)=>{
     return e**2
 })
 
+
+// ----------------------- filter 
 console.log(newArr)
 const greaterThanSeven = (e)=>{
     if(e>7){
@@ -18,6 +20,7 @@ const greaterThanSeven = (e)=>{
 }
 console.log(arr.filter(greaterThanSeven))
 
+// ----------------------- reduce
 let arr2 = [1,2,3,4,5,6]
 
 const red = (a, b)=>{
@@ -25,3 +28,4 @@ const red = (a, b)=>{
 }
 
 console.log(arr2.reduce(red))
+
